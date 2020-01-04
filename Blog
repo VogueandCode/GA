@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+	<title>Canary's Corner</title>
+	<link href="normalize.css" rel="stylesheet">
+	<style>
+		.avatar { 
+		margin: 60px 30px;
+		border-radius: 100%;
+		}
+		header {
+			text-align: center; 
+			background: #F53;
+			background-size: cover;
+			color: white;
+		}
+	a {
+		color: white;
+	}
+	h1 {
+		font-size: 50px;
+	}
+	img {
+		margin: 30px 0px 0px 0px;
+		border: 8px solid black;
+		border-radius: 15px;
+	}
+	ul { 
+	padding: 15px; 
+	background: black;
+	}	
+	li {
+		display: inline;
+		padding: 0px 10px 0px 10px;
+	}
+	article {
+		max-width: 500px;
+		padding: 20px;
+		margin: 0 auto;
+	}
+</style>
+</head>
+<body>
+	<header>
+		<h1>Canary's Corner</h1>
+		<img class="avatar" src="https://66.media.tumblr.com/8b934992fed7d07225b7178c0a0333c1/tumblr_oj2bltLIYB1vy2tgqo2_400.png">
+		<h2>A Blog About Canary.</h2>
+		<ul>
+			<li><a href="#">About Canary</a></li>
+			<li><a href="#">Upcoming Roles</a></li>
+			<li><a href="#">Contact Canary</a></li>
+		</ul>
+	</header>
+<article>
+		<h2>Canary's Hobbies</h2>
+		<p>Canary was raised in various places due to her father's time in the UK military. She enjoys a multitude of things that are all unrelated. Canary's has two favorite activities that she cannot decide between which are horseback riding and beekeeping. Many other enjoyable hobbies include swimming, volleyball, long distance running, extended pedicures, building websites and watching professional basketball.</p>
+</article>
+<article>
+	<h2>Canary On The Big Screen</h2>
+	<p>Canary's first role on television was in 1999 on Cartoon Network. She landed this role accidentally and was asked to return to finish the season. Quickly becoming a fan favorite, Canary made waves through the screens all over the world and most recently graced the cover of Cartoon International. She has been the first and only female entertainer on the cover! Things are just getting started for Canary with her highly anticipated upcoming role including a television series with the legendary Will Smith! </p>
+</article>
+<article>
+	<h2>Pop-Up Shops</h2>
+	<p>It is no secret that Canary loves to eat! Almost every interview or photo takes place inside of a restaurant or in front of a home cooked meal. Canary has been perfecting her skills in the kitchen since age 9, watching both her grandmother and mother she has learned plenty of tricks to the trade. Previously working as a restaurant server, Canary fully understands what it takes to successfully run a restaurant and most importantly keep customers satisfied! Prepare your tastebuds because Canary's Soul Food Truck will pop-up Jan. 5, 2020 in three major cities! Please hit the like button to show your support and leave us a review after your visit! One lucky winner will win free food for a month!  </p>
+<button>Like</button>
+</article>
+<script> $("button").on("click", function() {
+	alert("clicked!")
+	});
+</script>
+</body>
